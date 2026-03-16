@@ -18,12 +18,11 @@ public partial class Form1 : Form
 
             Console.WriteLine("User entered: " + message);
             
-            // Optional: Add the entered text to the ListBox
             listBox1.Items.Add("User 1: " + message);
 
             textBox1.Clear();
 
-            e.SuppressKeyPress = true; // prevents ding sound
+            e.SuppressKeyPress = true;
         }
     }
 
@@ -35,12 +34,11 @@ public partial class Form1 : Form
 
             Console.WriteLine("User 2 entered: " + message);
             
-            // Optional: Add the entered text to the ListBox
             listBox1.Items.Add("User 2: " + message);
 
             textBox2.Clear();
 
-            e.SuppressKeyPress = true; // prevents ding sound
+            e.SuppressKeyPress = true;
         }
     }
 }
