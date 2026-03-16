@@ -20,7 +20,7 @@ public partial class Form1 : Form
 
             textBox1.Clear();
 
-            e.SuppressKeyPress = true; // prevents ding sound
+            e.SuppressKeyPress = true;
         }
     }
 
@@ -34,7 +34,7 @@ public partial class Form1 : Form
 
             textBox2.Clear();
 
-            e.SuppressKeyPress = true; // prevents ding sound
+            e.SuppressKeyPress = true; 
         }
     }
 
