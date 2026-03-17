@@ -23,21 +23,4 @@ public partial class Form1 : Form
             e.SuppressKeyPress = true;
         }
     }
-
-        private void textBox2_KeyDown(object sender, KeyEventArgs e)
-    {
-        if (e.KeyCode == Keys.Enter)
-        {
-            string message = textBox2.Text;
-
-            Console.WriteLine("User 2 entered: " + message);
-
-            textBox2.Clear();
-
-            e.SuppressKeyPress = true;
-        }
-    }
-
-
-
 }

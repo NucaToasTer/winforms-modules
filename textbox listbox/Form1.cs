@@ -26,19 +26,4 @@ public partial class Form1 : Form
         }
     }
 
-    private void textBox2_KeyDown(object sender, KeyEventArgs e)
-    {
-        if (e.KeyCode == Keys.Enter)
-        {
-            string message = textBox2.Text;
-
-            Console.WriteLine("User 2 entered: " + message);
-            
-            listBox1.Items.Add("User 2: " + message);
-
-            textBox2.Clear();
-
-            e.SuppressKeyPress = true;
-        }
-    }
 }
