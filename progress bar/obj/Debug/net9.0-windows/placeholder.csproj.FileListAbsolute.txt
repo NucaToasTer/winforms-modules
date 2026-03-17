@@ -1,0 +1,14 @@
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\obj\Debug\net9.0-windows\placeholder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\obj\Debug\net9.0-windows\placeholder.AssemblyInfoInputs.cache
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\obj\Debug\net9.0-windows\placeholder.AssemblyInfo.cs
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\obj\Debug\net9.0-windows\placeholder.csproj.CoreCompileInputs.cache
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\bin\Debug\net9.0-windows\placeholder.exe
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\bin\Debug\net9.0-windows\placeholder.deps.json
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\bin\Debug\net9.0-windows\placeholder.runtimeconfig.json
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\bin\Debug\net9.0-windows\placeholder.dll
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\bin\Debug\net9.0-windows\placeholder.pdb
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\obj\Debug\net9.0-windows\placeholder.dll
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\obj\Debug\net9.0-windows\refint\placeholder.dll
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\obj\Debug\net9.0-windows\placeholder.pdb
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\obj\Debug\net9.0-windows\placeholder.genruntimeconfig.cache
+C:\Users\ethan\Desktop\C#forms\base - Copy\placeholder\obj\Debug\net9.0-windows\ref\placeholder.dll
