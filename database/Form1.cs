@@ -109,9 +109,9 @@ public partial class Form1 : Form
         AddActionColumns();
 
         foreach (var p in _products)
-            dataGridView1.Rows.Add(p.ID, p.Product_Name, p.Category, p.Price, p.Stock, "Edit", "Delete");
+            dataGridView1.Rows.Add(p.ID, p.Product_Name ?? "", p.Category ?? "", p.Price, p.Stock, "Edit", "Delete");
 
-        var idx = dataGridView1.Rows.Add(null, "", "", "", "", "", "Cancel");
+        var idx = dataGridView1.Rows.Add("", "", "", "", "", "", "Cancel");
         dataGridView1.CurrentCell = dataGridView1.Rows[idx].Cells["Product_Name"];
         dataGridView1.BeginEdit(true);
 
@@ -158,7 +158,7 @@ public partial class Form1 : Form
     {
         if (e.RowIndex < 0) return;
         var row = dataGridView1.Rows[e.RowIndex];
-        var col = dataGridView1.Columns[e.ColumnIndex].Name;
+        var col = e.ColumnIndex >= 0 ? dataGridView1.Columns[e.ColumnIndex].Name : string.Empty;
 
         if (col == "DeleteBtn")
         {
@@ -180,7 +180,7 @@ public partial class Form1 : Form
             if (_inserting) return;
 
             foreach (DataGridViewCell cell in row.Cells)
-                cell.ReadOnly = cell.OwningColumn.Name is "EditBtn" or "DeleteBtn" or "ID";
+                cell.ReadOnly = cell.OwningColumn?.Name is "EditBtn" or "DeleteBtn" or "ID";
 
             dataGridView1.CurrentCell = row.Cells["Product_Name"];
             dataGridView1.BeginEdit(true);
